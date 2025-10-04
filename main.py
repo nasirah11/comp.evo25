@@ -1,7 +1,14 @@
 import streamlit as st
 
 st.set_page_config(page_title="My Resume", page_icon=":briefcase:", layout="wide")
+# ---- HEADER SECTION ----
+col1, col2 = st.columns([1, 3])
 
+with col1:
+    # 👉 Make sure your photo file (e.g., profile.jpg) is in the same folder as this file
+    st.image("profile.jpg", width=180)
+
+with col2:
 # ---- HEADER ----
 st.title("🌟 Siti Nasirah")
 st.subheader("Year 3 Student at University Malaysia Kelantan (2023)")
