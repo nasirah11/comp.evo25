@@ -94,7 +94,5 @@ st.write("**Final Year Project** — I take my final year project 1 this semeste
 st.write("---")
 
 # ---- FOOTER ----
-st.markdown(
-    "<p style='text-align: center; color: grey;'>Made with ❤️ using Streamlit</p>",
-    unsafe_allow_html=True
+st.markdown("<p class='footer'>Made with 💙 by Nasirah using Streamlit</p>", unsafe_allow_html=True)
 )
