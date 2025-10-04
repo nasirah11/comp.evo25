@@ -1,23 +1,52 @@
 import streamlit as st
 
-# Title and subtitle
-st.title("🌟 My First Streamlit App")
-st.subheader("A simple example without pandas or numpy")
+st.set_page_config(page_title="My Resume", page_icon=":briefcase:", layout="wide")
 
-# Text input
-name = st.text_input("What's your name?", "Guest")
+# ---- HEADER ----
+st.title("🌟 Siti Nasirah")
+st.subheader("Year 3 Student at University Malaysia Kelantan (2023)")
+st.write("---")
 
-# Number input
-age = st.number_input("Enter your age:", min_value=1, max_value=120, value=25)
+# ---- CONTACT INFO ----
+st.header("📞 Contact Information")
+st.write("Email: snasirah7l@gmail.com")
+st.write("Phone: +60 12-345 6789")
+st.write("LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)")
 
-# Checkbox
-if st.checkbox("Show greeting"):
-    st.write(f"Hello, **{name}**! 👋 You are {age} years old.")
+st.write("---")
 
-# Button
-if st.button("Click me"):
-    st.success("🎉 You clicked the button!")
+# ---- EDUCATION ----
+st.header("🎓 Education")
+st.write("**Bachelor of Information Technology** — University Malaysia Kelantan (Year 3, 2023 - Present)")
 
-# Select box
-color = st.selectbox("Pick a color", ["Red", "Green", "Blue"])
-st.write(f"Your favorite color is: {color}")
+st.write("---")
+
+# ---- WORK EXPERIENCE ----
+st.header("💼 Work Experience")
+st.write("Intern at Hospital Sultan Ismail 2021 / Part-time Experience at Aeon")
+st.write("- Add details of projects, part-time jobs, or any academic achievements here.")
+
+st.write("---")
+
+# ---- SKILLS ----
+st.header("🛠 Skills")
+st.write("- Python")
+st.write("- Streamlit")
+st.write("- SQL")
+st.write("- Data Analysis")
+st.write("- Communication & Teamwork")
+
+st.write("---")
+
+# ---- PROJECTS ----
+st.header("🚀 Projects & Achievements")
+st.write("**Resume Web App** — Built my resume page with Streamlit and deployed online.")
+st.write("**Other Projects** — Add course projects, research, or hackathons here.")
+
+st.write("---")
+
+# ---- FOOTER ----
+st.markdown(
+    "<p style='text-align: center; color: grey;'>Made with ❤️ using Streamlit</p>",
+    unsafe_allow_html=True
+)
