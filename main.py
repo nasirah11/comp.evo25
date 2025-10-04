@@ -1,14 +1,56 @@
 import streamlit as st
 
 st.set_page_config(page_title="My Resume", page_icon=":briefcase:", layout="wide")
-# ---- HEADER SECTION ----
-col1, col2 = st.columns([1, 3])
+✨ resume.py (no profile photo version)
 
-with col1:
-    # 👉 Make sure your photo file (e.g., profile.jpg) is in the same folder as this file
-    st.image("profile.jpg", width=180)
+# ---- CUSTOM CSS ----
+st.markdown("""
+    <style>
+    .main {
+        background-color: #fdfcfb;
+        padding: 2rem;
+        font-family: 'Segoe UI', sans-serif;
+    }
 
-with col2:
+    h1, h2, h3 {
+        color: #333333;
+    }
+
+    h1 {
+        font-size: 2.5rem !important;
+        color: #4e8cff;
+        margin-bottom: -10px;
+    }
+
+    h2 {
+        border-left: 5px solid #4e8cff;
+        padding-left: 10px;
+        font-size: 1.4rem !important;
+        margin-top: 2rem;
+        color: #333;
+    }
+
+    .small-text {
+        color: #555;
+        font-size: 0.95rem;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: linear-gradient(to right, #4e8cff, transparent);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer {
+        text-align: center;
+        color: #999;
+        font-size: 0.85rem;
+        margin-top: 3rem;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # ---- HEADER ----
 st.title("🌟 Siti Nasirah")
 st.subheader("Year 3 Student at University Malaysia Kelantan (2023)")
