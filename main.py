@@ -10,7 +10,7 @@ st.write("---")
 # ---- CONTACT INFO ----
 st.header("📞 Contact Information")
 st.write("Email: snasirah7l@gmail.com")
-st.write("Phone: +60 12-345 6789")
+st.write("Phone: +60 19-470 53 61")
 st.write("LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)")
 
 st.write("---")
@@ -24,7 +24,7 @@ st.write("---")
 # ---- WORK EXPERIENCE ----
 st.header("💼 Work Experience")
 st.write("Intern at Hospital Sultan Ismail 2021 / Part-time Experience at Aeon")
-st.write("- Add details of projects, part-time jobs, or any academic achievements here.")
+st.write("- My internship at Hospital Sultan Ismail, Johor Bahru was 8 months.")
 
 st.write("---")
 
@@ -41,7 +41,7 @@ st.write("---")
 # ---- PROJECTS ----
 st.header("🚀 Projects & Achievements")
 st.write("**Resume Web App** — Built my resume page with Streamlit and deployed online.")
-st.write("**Other Projects** — Add course projects, research, or hackathons here.")
+st.write("**Final Year Project** — I take my final year project 1 this semester.")
 
 st.write("---")
 
