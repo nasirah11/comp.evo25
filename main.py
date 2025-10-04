@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.set_page_config(page_title="My Resume", page_icon=":briefcase:", layout="wide")
-✨ resume.py (no profile photo version)
 
 # ---- CUSTOM CSS ----
 st.markdown("""
